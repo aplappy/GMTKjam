@@ -10,7 +10,7 @@ player_x = 300
 player_y = 150
 player_speed = 5
 
-
+priv = 10
 
 running = True
 while running:
