@@ -1,11 +1,11 @@
 import pygame
 
 pygame.init()
-screen = pygame.display.set_mode((600, 300))  # screen size
+screen = pygame.display.set_mode((1680, 960))  # screen size
 pygame.display.set_caption("giga game")
 pygame.display.set_icon(pygame.image.load('images/Sprite-0001.png'))
 
-player = pygame.image.load('images/chel 1.png')
+player = pygame.image.load('images/lizard_main.png')
 player_x = 300
 player_y = 150
 player_speed = 5
